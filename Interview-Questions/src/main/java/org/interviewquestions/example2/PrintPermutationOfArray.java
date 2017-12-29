@@ -35,15 +35,11 @@ public class PrintPermutationOfArray {
 	 */
 	public List<List<Integer>> permutationPrint(List<Integer> list) {
 
-		if(list == null){
-			throw new NullPointerException("List should not be null");
-		}
-		
-		List<List<Integer>> returnValue = new ArrayList<List<Integer>>();
+		List<List<Integer>> reducedArray = new ArrayList<List<Integer>>();
 		
 		if (list == null || list.size() == 0) {
-			returnValue.add(new ArrayList<Integer>());
-			return returnValue;
+			reducedArray.add(new ArrayList<Integer>());
+			return reducedArray;
 		}
 
 		Integer firstElement = list.remove(0);
@@ -53,9 +49,9 @@ public class PrintPermutationOfArray {
 			for (int index = 0; index <= smallerPermutated.size(); index++) {
 				List<Integer> temp = new ArrayList<Integer>(smallerPermutated);
 				temp.add(index, firstElement);
-				returnValue.add(temp);
+				reducedArray.add(temp);
 			}
 		}
-		return returnValue;
+		return reducedArray;
 	}
 }
