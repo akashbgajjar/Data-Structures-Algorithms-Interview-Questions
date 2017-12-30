@@ -1,4 +1,4 @@
-package org.interviewquestions.example4;
+package org.interviewquestions.examples;
 
 /**
  * 

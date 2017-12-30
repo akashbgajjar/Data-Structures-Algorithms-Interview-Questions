@@ -1,4 +1,4 @@
-package org.interviewquestions.example2;
+package org.interviewquestions.examples;
 
 import java.util.ArrayList;
 import java.util.List;
