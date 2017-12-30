@@ -1,5 +1,10 @@
 package org.interviewquestions.example3;
 
+/**
+ * 
+ * @author Akash Gajjar
+ *
+ */
 public class FindSqrtOfNumber {
 
 	public static void main(String[] args){
