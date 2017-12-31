@@ -37,8 +37,6 @@ public class PhaserExample {
 		
 		System.out.println("Before Termination to check for wait");
 		
-		System.out.println(phaser.isTerminated());
-		
 		System.out.println("Total time taken : " + (System.currentTimeMillis() - start));
 	}
 	

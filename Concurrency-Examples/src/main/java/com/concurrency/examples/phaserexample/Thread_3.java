@@ -20,9 +20,6 @@ public class Thread_3 extends AbstractRunnable{
 		try{
 			System.out.println("Thread_3 waiting for " + timeout + " ms");
 			Thread.sleep(timeout);
-			Thread_4 thread_4 = new Thread_4(phaser);
-			Thread thread = new Thread(thread_4);
-			thread.start();
 		}catch(Exception e){
 			e.printStackTrace();
 		}finally{

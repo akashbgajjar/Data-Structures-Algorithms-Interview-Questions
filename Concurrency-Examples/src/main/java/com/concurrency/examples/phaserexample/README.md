@@ -3,14 +3,34 @@ Phaser:
 Java Doc: https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Phaser.html
 
 Description:
-	In this example main thread is creating 3 child threads and initialize phaser that will wait for all child threads.
+	In below example Main Thread will wait for all five threads and Thread_1 will wait for Thread_4 and Thread_5. Phaser is an exact latch that helps to achieve below scenario.
 	
-	Main Thread
-	|
-	Thread_1
-	|
-	Thread_2
-	|
-	Thread_3
-		\
-		 Thread_4
+					Main Thread
+						 |
+						 |
+		____________________________________
+		|				 |				   |
+		|				 |				   |
+	  Thread_1		  Thread_2		   Thread_3
+	    |
+	    |
+  ______________
+  |			   |
+  |			   |
+Thread_4	Thread_5
+
+O/P of above scenario:
+
+Thread_2 waiting for 5000 ms
+Thread_1 waiting for 1000 ms
+Thread_3 waiting for 2000 ms
+Thread_4 waiting for 1000 ms
+Thread_5 waiting for 1000 ms
+Thread_3 party arrived
+Thread_4 party arrived
+Thread_5 party arrived
+Thread_2 party arrived
+Phase: 0 Registered Parties: 2
+Thread_1 party arrived
+Before Termination to check for wait
+Total time taken : 5006
