@@ -1,6 +1,10 @@
 package org.datastructures.example.heap;
 
-
+/**
+ * 
+ * @author Akash Gajjar
+ *
+ */
 public class Example {
 	
 	public static void main(String[] args){

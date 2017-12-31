@@ -3,7 +3,12 @@ package org.datastructures.example.heap;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * 
+ * @author Akash Gajjar
+ *
+ * @param <T>
+ */
 public class Heap<T extends Comparable<T>> {
 	
 	private final List<T> array;
