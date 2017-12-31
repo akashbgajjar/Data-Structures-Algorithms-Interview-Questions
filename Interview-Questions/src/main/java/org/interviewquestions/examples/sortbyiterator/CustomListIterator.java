@@ -5,7 +5,12 @@ import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-
+/**
+ * 
+ * @author Akash Gajjar
+ *
+ * @param <E>
+ */
 public class CustomListIterator<E> implements Iterator<E>{
 
 	private boolean canAddIterators = true;
