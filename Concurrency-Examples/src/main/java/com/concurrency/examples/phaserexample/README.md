@@ -5,7 +5,7 @@ Java Doc: https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Phaser.
 Description:
 	In below example Main Thread will wait for all five threads and Thread_1 will wait for Thread_4 and Thread_5. Phaser is an exact latch that helps to achieve below scenario.
 	
-					Main Thread
+						Main Thread
 						 |
 						 |
 		____________________________________________________________________
