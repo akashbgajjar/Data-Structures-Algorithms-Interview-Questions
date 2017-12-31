@@ -1,8 +1,12 @@
 package org.concurrency.examples.countdownlatchexample;
 
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.TimeUnit;
 
+/**
+ * 
+ * @author Akash Gajjar
+ *
+ */
 public class CountDownLatchExample {
 
 	public static void main(String[] args){

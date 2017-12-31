@@ -2,6 +2,11 @@ package org.concurrency.examples.countdownlatchexample;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * 
+ * @author Akash Gajjar
+ *
+ */
 public class Thread_2 extends AbstractRunnable{
 
 	private final long time_out = 2000L;

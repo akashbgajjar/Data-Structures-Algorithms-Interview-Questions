@@ -2,6 +2,11 @@ package org.concurrency.examples.phaserexample;
 
 import java.util.concurrent.Phaser;
 
+/**
+ * 
+ * @author Akash Gajjar
+ *
+ */
 public abstract class AbstractRunnable implements Runnable{
 
 	final Phaser phaser;

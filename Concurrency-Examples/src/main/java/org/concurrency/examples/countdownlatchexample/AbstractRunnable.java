@@ -2,6 +2,11 @@ package org.concurrency.examples.countdownlatchexample;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * 
+ * @author Akash Gajjar
+ *
+ */
 public abstract class AbstractRunnable implements Runnable{
 
 	final CountDownLatch countDownLatch;
