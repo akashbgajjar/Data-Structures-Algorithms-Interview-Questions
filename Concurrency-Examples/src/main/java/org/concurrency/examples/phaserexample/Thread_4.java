@@ -1,4 +1,4 @@
-package com.concurrency.examples.phaserexample;
+package org.concurrency.examples.phaserexample;
 
 import java.util.concurrent.Phaser;
 
