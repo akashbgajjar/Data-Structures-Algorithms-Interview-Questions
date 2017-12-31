@@ -8,16 +8,16 @@ Description:
 					Main Thread
 						 |
 						 |
-		____________________________________
+		____________________________________________________________________
 		|				 |				   |
 		|				 |				   |
-	  Thread_1		  Thread_2		   Thread_3
+	  Thread_1		  		Thread_2		   	Thread_3
 	    |
 	    |
-  ______________
+  __________________________
   |			   |
   |			   |
-Thread_4	Thread_5
+Thread_4		Thread_5
 
 O/P of above scenario:
 
