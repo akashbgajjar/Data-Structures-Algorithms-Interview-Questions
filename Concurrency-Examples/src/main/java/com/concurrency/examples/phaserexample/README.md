@@ -14,23 +14,23 @@ Description:
 	  Thread_1		  		Thread_2		   	Thread_3
 	    |
 	    |
-  __________________________
-  |			   |
-  |			   |
-Thread_4		Thread_5
+  	____________________________
+  	|			   |
+  	|			   |
+	Thread_4		Thread_5
 
 O/P of above scenario:
 
-Thread_2 waiting for 5000 ms
-Thread_1 waiting for 1000 ms
-Thread_3 waiting for 2000 ms
-Thread_4 waiting for 1000 ms
-Thread_5 waiting for 1000 ms
-Thread_3 party arrived
-Thread_4 party arrived
-Thread_5 party arrived
-Thread_2 party arrived
-Phase: 0 Registered Parties: 2
-Thread_1 party arrived
-Before Termination to check for wait
-Total time taken : 5006
+	Thread_2 waiting for 5000 ms
+	Thread_1 waiting for 1000 ms
+	Thread_3 waiting for 2000 ms
+	Thread_4 waiting for 1000 ms
+	Thread_5 waiting for 1000 ms
+	Thread_3 party arrived
+	Thread_4 party arrived
+	Thread_5 party arrived
+	Thread_2 party arrived
+	Phase: 0 Registered Parties: 2
+	Thread_1 party arrived
+	Before Termination to check for wait
+	Total time taken : 5006
