@@ -6,8 +6,17 @@ package org.interviewquestions.examples;
  * 
  *         Given n non-negative integers in array representing an elevation map
  *         where the width of each bar is 1, compute how much water it is able
- *         to trap after raining. For example: Input: 3 2 0 2 Output: 2
- *         Structure is like below | | |_| We can trap 2 units of water in the
+ *         to trap after raining. 
+ *         For example: 
+ *         Input: 
+ *         3 
+ *         2 0 2 
+ *         Output: 
+ *         2
+ *         Structure is like below 
+ *         | | 
+ *         |_| 
+ *         We can trap 2 units of water in the
  *         middle gap.
  * 
  *         Below is another example.
@@ -19,11 +28,22 @@ package org.interviewquestions.examples;
  * 
  *         Output: Print trap units of water in the middle gap.
  * 
- *         Constraints: 1<=T<=100 3<=N<=100 0<=Arr[i]<10
+ *         Constraints: 
+ *         1<=T<=100 
+ *         3<=N<=100 
+ *         0<=Arr[i]<10
  * 
- *         Example: Input: 2 4 7 4 0 9 3 6 9 9
+ *         Example: 
+ *         Input: 
+ *         2 
+ *         4 
+ *         7 4 0 9 
+ *         3 
+ *         6 9 9
  * 
- *         Output: 10 0
+ *         Output: 
+ *         10 
+ *         0
  * 
  *         https://practice.geeksforgeeks.org/problems/trapping-rain-water/0
  * 
