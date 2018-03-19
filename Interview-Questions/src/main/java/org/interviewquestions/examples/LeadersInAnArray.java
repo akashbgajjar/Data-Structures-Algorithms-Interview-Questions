@@ -2,7 +2,6 @@ package org.interviewquestions.examples;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Queue;
 
 /**
  * 
@@ -20,9 +19,21 @@ import java.util.Queue;
  * 
  *         Output: Print all the leaders.
  * 
- *         Constraints: 1 <= T <= 100 1 <= N <= 100 0 <= A[i]<=100
+ *         Constraints: 
+ *         1 <= T <= 100 
+ *         1 <= N <= 100 
+ *         0 <= A[i]<=100
  * 
- *         Example: Input: 2 6 16 17 4 3 5 2 5 1 2 3 4 0 Output: 17 5 2 4 0
+ *         Example: 
+ *         Input: 
+ *         2 
+ *         6 
+ *         16 17 4 3 5 2 
+ *         5 
+ *         1 2 3 4 0 
+ *         Output: 
+ *         17 5 2 
+ *         4 0
  * 
  */
 public class LeadersInAnArray {
