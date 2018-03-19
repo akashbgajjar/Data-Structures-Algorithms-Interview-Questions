@@ -32,10 +32,12 @@ public class TrappingRainWater {
 
 	public static void main(String[] args) {
 		int a[] = { 10, 1, 6, 5, 2, 0, 8, 3, 0, 1 };
-		System.out.println(getUnitsOfWater(a, a.length));
+		System.out.println(getUnitsOfWater(a));
 	}
 
-	private static int getUnitsOfWater(int arr[], int n) {
+	private static int getUnitsOfWater(int arr[]) {
+		
+		int n = arr.length;
 		int left[] = new int[n];
 
 		int right[] = new int[n];
